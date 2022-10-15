@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+drawable avatar01
+drawable avatar02
+drawable avatar03
+drawable avatar_001
+drawable avatar_04
+drawable avatar_05
+drawable avatar_06
+drawable avatarlogo
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string continue_composing
+string delete
+string details_screen
+string logo
+string move_to_inbox
+string navigation_back
+string navigation_bottom
+string navigation_drawer
+string navigation_rail
+string profile
+string reply
+string reply_all
+string tab_drafts
+string tab_inbox
+string tab_sent
+string tab_spam
+style Theme.Reply

@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2022 The Android Open Source Project
+4  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+5  in compliance with the License. You may obtain a copy of the License at
+6  http://www.apache.org/licenses/LICENSE-2.0
+7  Unless required by applicable law or agreed to in writing, software distributed under the License
+8  is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+9  or implied. See the License for the specific language governing permissions and limitations under
+10  the License.
+11-->
+12<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+13    package="com.example.reply"
+14    android:versionCode="1"
+15    android:versionName="1.0" >
+16
+17    <uses-sdk
+18        android:minSdkVersion="21"
+18-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml
+19        android:targetSdkVersion="32" />
+19-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml
+20
+21    <application
+21-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:16:5-35:19
+22        android:allowBackup="true"
+22-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:17:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/8a9e634b9fa2342236d9d40ba886a153/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:18:9-43
+26        android:label="@string/app_name"
+26-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:19:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:20:9-54
+28        android:supportsRtl="true"
+28-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:21:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Reply" >
+30-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:22:9-43
+31        <activity
+31-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:24:9-34:20
+32            android:name="com.example.reply.MainActivity"
+32-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:25:13-41
+33            android:exported="true"
+33-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:26:13-36
+34            android:label="@string/app_name"
+34-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:27:13-45
+35            android:theme="@style/Theme.Reply" >
+35-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:28:13-47
+36            <intent-filter>
+36-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:29:13-33:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:30:17-69
+37-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:30:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:32:17-77
+39-->/Users/vaishnavijoshi/open source/MyUniApp/app/src/main/AndroidManifest.xml:32:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/4ca44f5a7447a30af88e78eabfcb5eab/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:24:9-26:39
+43            android:name="androidx.activity.ComponentActivity"
+43-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/4ca44f5a7447a30af88e78eabfcb5eab/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:25:13-63
+44            android:exported="true" />
+44-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/4ca44f5a7447a30af88e78eabfcb5eab/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:26:13-36
+45        <activity
+45-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/da1373eaa6a2f2041dbfe6c01a6a9801/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39
+46            android:name="androidx.compose.ui.tooling.PreviewActivity"
+46-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/da1373eaa6a2f2041dbfe6c01a6a9801/transformed/ui-tooling-1.2.0/AndroidManifest.xml:25:13-71
+47            android:exported="true" />
+47-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/da1373eaa6a2f2041dbfe6c01a6a9801/transformed/ui-tooling-1.2.0/AndroidManifest.xml:26:13-36
+48
+49        <uses-library
+49-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.window.extensions"
+50-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:26:13-54
+51            android:required="false" />
+51-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:27:13-37
+52        <uses-library
+52-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:28:9-30:40
+53            android:name="androidx.window.sidecar"
+53-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:29:13-51
+54            android:required="false" />
+54-->[androidx.window:window:1.1.0-alpha02] /Users/vaishnavijoshi/.gradle/caches/transforms-3/aaa3e8ff32750efc287cb48e47d3cf0f/transformed/window-1.1.0-alpha02/AndroidManifest.xml:30:13-37
+55
+56        <provider
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:26:13-67
+58            android:authorities="com.example.reply.androidx-startup"
+58-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:27:13-68
+59            android:exported="false" >
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:28:13-37
+60            <meta-data
+60-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+61-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+62                android:value="androidx.startup" />
+62-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+63        </provider>
+64
+65        <receiver
+65-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+66-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+67            android:directBootAware="false"
+67-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+68            android:enabled="true"
+68-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+69            android:exported="true"
+69-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+70            android:permission="android.permission.DUMP" >
+70-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+75                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vaishnavijoshi/.gradle/caches/transforms-3/cc94354892c57bb7151390837bc27f9f/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>

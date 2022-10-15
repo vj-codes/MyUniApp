@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Uni App</string>
+    <string name="continue_composing">Continue</string>
+    <string name="delete">Delete</string>
+    <string name="details_screen">Details Screen</string>
+    <string name="logo">Logo</string>
+    <string name="move_to_inbox">Move</string>
+    <string name="navigation_back">Back</string>
+    <string name="navigation_bottom">Navigation Bottom</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="navigation_rail">Navigation Rail</string>
+    <string name="profile">Profile</string>
+    <string name="reply">Back</string>
+    <string name="reply_all">Go to website</string>
+    <string name="tab_drafts">Lectures</string>
+    <string name="tab_inbox">Events</string>
+    <string name="tab_sent">Clubs</string>
+    <string name="tab_spam">Assignments</string>
+    <style name="Theme.Reply" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
