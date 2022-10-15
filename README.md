@@ -8,6 +8,7 @@ This is where the MyUniApp app plays its part as everyone today has a smartphone
 
 ### Solution :
 MyUniApp is an android application that can be used to store data regarding everything that is happening in the college be it events, clubs, lectures or assignments.
+The app has four screens - Events, Clubs, Lectures and Assignments screen.
 Live updated data can be visible in android studio using the roomdatabase.
 
 ### Concepts used in the app :
@@ -30,3 +31,6 @@ Live updated data can be visible in android studio using the roomdatabase.
 <img width="331" alt="Screenshot 2022-10-15 at 10 54 34 PM" src="https://user-images.githubusercontent.com/60894542/195999888-acdf8fe0-8a20-4fa1-b785-86ce1725b7c0.png"> 
 <img width="341" alt="Screenshot 2022-10-15 at 10 54 49 PM" src="https://user-images.githubusercontent.com/60894542/195999889-cb0dedc5-c0a6-45b9-bc8f-b90824644b5e.png">
 <img width="330" alt="Screenshot 2022-10-15 at 10 55 00 PM" src="https://user-images.githubusercontent.com/60894542/195999891-eec0deae-e437-4382-8a51-d47b9fd5e7b9.png">
+
+### Future scope
+Feature to personlise the app as per each student's need.
