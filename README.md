@@ -1,10 +1,14 @@
 # MyUniApp
-### Problem Statement
+### Problem Statement :
 Students face difficulties while keeping track of events happening at college,the various clubs in college as well as their lecture schedule and assignment deadlines.
 Sometimes due to unexpected change in timetable or work overload students may forget the submission deadline or the informative session being conducted in college. 
 This is common in almost every student's life.
 The advent of android applications has meant these issues can be solved very easily. 
 This is where the MyUniApp app plays its part as everyone today has a smartphone and this app can be accessed very easily.
+
+### Solution :
+MyUniApp is an android application that can be used to store data regarding everything that is happening in the college be it events, clubs, lectures or assignments.
+Live updated data can be visible in android studio using the roomdatabase.
 
 ### Concepts used in the app :
 
